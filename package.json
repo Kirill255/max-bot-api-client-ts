@@ -1,6 +1,6 @@
 {
-  "name": "@maxhub/max-bot-api",
-  "version": "0.2.1",
+  "name": "@kirill255/max-bot-api-client-ts",
+  "version": "0.2.1-staging.887125e2",
   "description": "Max Bot Framework",
   "repository": "https://github.com/max-messenger/max-bot-api-client-ts",
   "author": "Juice Development",
@@ -8,11 +8,12 @@
   "engines": {
     "node": ">=18.18.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "./dist/"
-  ],
+  "files": ["dist"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
