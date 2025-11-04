@@ -2,7 +2,10 @@
   "name": "@kirill255/max-bot-api-client-ts",
   "version": "0.2.1-staging.887125e2",
   "description": "Max Bot Framework",
-  "repository": "https://github.com/max-messenger/max-bot-api-client-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirill255/max-bot-api-client-ts.git"
+  },
   "author": "Juice Development",
   "license": "MIT",
   "engines": {
